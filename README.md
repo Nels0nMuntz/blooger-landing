@@ -1,5 +1,5 @@
-# tajem-landing
-Tajem landing
+# blooger-landing
+Blooger landing page
 
 
 
@@ -11,6 +11,8 @@ Information about all using dependencies contains in file 'package.json'
 
 The layout is completely responsive by using media-queries, where specified several breakpoints, that makes a user-friendly landing  for devices with different screen format.
 A drop-down menu is provided for mobile devices, that is activated by click on the burger menu icon in the header.
+
+Projec uses AOS library to create scroll animation.
 
 ## Download and installation
 To begin using this template, clone the repo `git clone https://github.com/Nels0nMuntz/blooger-landing.git` or donwload on GitHab.

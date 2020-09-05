@@ -1,0 +1,158 @@
+@media (max-width: 1130px) {
+    /*       --------------------        post  1130px       ---------------------------         */
+    .post__info {
+        position: absolute;
+        // bottom: 1.2rem;
+        // left: 2rem;
+        bottom: 0.72rem;
+    left: 1.49rem;
+        transform: none;
+        border-radius: 0;
+    }
+    .popular-post__info {
+        display: none;
+    }
+    .post__photo, .post__title {
+        padding: 0.5rem 1.5rem;
+        position: relative;
+    }
+
+    /*       --------------------        footer  1130px       ---------------------------         */
+    .footer .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    /*       --------------------        header   767px      ---------------------------         */
+    .header {
+        flex-direction: column;
+        align-items: start;
+        padding: 1rem 2rem;
+    }
+    .nav-header__list{
+        flex-direction: column;
+        align-items: start;
+        margin-top: 1rem;
+    }
+    .nav-header__item{
+        padding: 1rem 0;
+    }
+    .nav-header__link{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        background-color: rgba($color: #104f55, $alpha: 0);
+        border-left: 2px solid rgba($color: #104f55, $alpha: 0);
+        transition: all 0.2s linear;
+        &:hover{
+            background-color: rgba($color: #104f55, $alpha: 0.5);
+            border-left-color: rgba($color: #104f55, $alpha: 1);     
+        }
+    }
+    .collapse{
+        display: block;
+    }
+
+    /*       --------------------        post   575px      ---------------------------         */
+    .post__info {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    /*       --------------------        blog   575px      ---------------------------         */
+    .blog__posts {
+        padding-top: 3rem;
+    }
+
+    /*       --------------------        post   575px      ---------------------------         */
+    .posts {
+        padding: 0;
+    }
+    .site-content{
+        display: block;
+    }
+    .post__title a {
+        font-size: 1rem;
+    }
+    .post__title p {
+        margin: 0.7rem 0;
+        font-size: 0.8rem;
+    }
+    .pagination {
+        margin: 1rem 0;
+    }
+    .sidebar{
+        padding: 0 1.5rem;
+    }
+    .category__list{
+        padding-left: 3rem;
+    }
+    .popular-post {
+        margin-top: 3rem;
+    }
+    .newsletter {
+        padding-top: 2rem;
+    }
+    .newsletter__input {
+        width: 100%;
+    }
+    .newsletter__btn {
+        width: 100%;
+    }
+    .popular-tags {
+        padding: 2rem 0;
+    }
+    .popular-tags__list{
+        flex-wrap: wrap;
+    }
+
+    /*       --------------------        footer  575px       ---------------------------         */
+    .footer {
+        padding: 1rem 0;
+    }
+    .footer .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer__item {
+        padding: 1rem 1rem;
+    }
+    .footer__title {
+        margin: 0.8rem 0;
+        font-size: 1rem;
+    }
+    .footer__item p{
+        font-size: 0.8rem;
+    }
+    .move-up {
+        top: 80%;
+    }
+    .footer__rights {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 450px) {
+    /*       --------------------        post   450px      ---------------------------         */
+    .post__title .post__btn {
+        padding: .5rem 1.5rem;
+    }
+    .category__list {
+        padding-left: 0rem;
+    }
+    .post__photo, .post__title {
+        padding: .3rem 0rem;
+    }
+    .newsletter__form {
+        padding: .5rem 0rem;
+    }
+
+    /*       --------------------        footer  450px       ---------------------------         */
+        .footer__item {
+        padding: 0.4rem 1rem;
+    }
+}

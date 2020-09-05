@@ -1,0 +1,53 @@
+.header{
+    justify-content: space-between;
+    background-color: $white;
+    padding: 0 2rem;
+    height: 0;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+.header.active{
+    height: 25rem;
+}
+.brand__link{
+    font-size: 1.6rem;
+    color: $text-gray;
+    font-family: Lexend, cursive;
+    text-transform: capitalize;
+}
+.nav-header__item{
+    padding: 1rem 0;
+}
+.nav-header__link{
+    padding: 1rem;
+    font-family: Abel, cursive;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    color: $text-gray;
+    transition: all 0.2s linear;
+    &:hover{
+        background-color: $midnight;
+        color: $white;       
+    }
+}
+.social_dark .social__link{
+   color: $text-gray;
+   padding: 0.2rem;
+   transition: color 0.15s linear;
+   &:hover{
+    color: #a1c4cf;
+   }
+}
+.collapse{
+    display: none;
+    color: $text-gray;
+    font-size: 1.5rem;
+    position: absolute;
+    width: 85%;
+    text-align: right;
+    padding-top: 0.4rem;
+    i{
+        cursor: pointer;
+    }
+}

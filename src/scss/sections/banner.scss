@@ -1,0 +1,31 @@
+.banner{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.banner__inner{
+    padding-top: 10rem;
+    text-align: center;
+    color: $white;
+}
+.banner__inner h3{
+    font-family: Abel, cursive;
+    font-size: 1.3rem;
+    margin: 0.3rem;
+}
+.banner__inner h1{
+    font-family: Lexend, cursive;
+    font-size: 2.5rem;
+    margin: 0.3rem;
+}
+.banner__btn{
+    margin: 1.8rem;
+    background: $sky;
+}
+.banner__btn:hover{
+    background: transparent;
+    border: 1px solid $white;
+    color: $white;
+}

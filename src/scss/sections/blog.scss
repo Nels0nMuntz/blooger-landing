@@ -1,0 +1,49 @@
+.blog{
+    width: 100%;
+    height: 100vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+.blog__posts{
+    padding-top: 6rem;
+}
+.blog__item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 2rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+.item-blog__title{
+    padding: 2rem 0;
+}
+.item-blog__btn{
+    padding: 0.7rem 2rem;
+    background: $sky;
+    margin: 0.5rem;
+}
+.item-blog h3{
+    margin: 0.3rem;
+}
+.item-blog span{
+    display: block;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+    color: $text-gray;
+    background: transparent;
+    font-size: 2rem;
+}
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background: transparent;
+    color: $midnight;
+}
+.owl-theme .owl-nav [class*='owl-']{
+    outline: none;
+}
+.owl-theme .owl-nav {
+    margin-top: 0px;
+}

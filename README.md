@@ -14,6 +14,8 @@ A drop-down menu is provided for mobile devices, that is activated by click on t
 
 Projec uses AOS library to create scroll animation.
 
+Follow the link https://nels0nmuntz.github.io/blooger-landing/ to see the demo version of the project.
+
 ## Download and installation
 To begin using this template, clone the repo `git clone https://github.com/Nels0nMuntz/blooger-landing.git` or donwload on GitHab.
 
@@ -27,6 +29,6 @@ In the project directory, you can run:
 
 Runs the project in the development mode.
 
-Open http://localhost:3000 to view it in the browser.
+Open `http://localhost:3000` to view it in the browser.
 
 The page will reload if you make edits.
